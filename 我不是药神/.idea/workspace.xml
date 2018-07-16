@@ -37,8 +37,8 @@
       <file leaf-file-name="情感分析_2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/情感分析_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="413">
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -241,16 +241,24 @@
       <option name="project" value="LOCAL" />
       <updated>1531724276108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create README.md">
+      <created>1531724462809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531724462809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5005513" side_tool="true" visible="true" weight="0.22988506" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005513" side_tool="true" visible="true" weight="0.22988506" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.22988506" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.22988506" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7629548" weight="0.34029227" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49944875" weight="0.32985386" />
@@ -635,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/情感分析_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="413">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
