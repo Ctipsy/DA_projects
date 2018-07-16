@@ -2,7 +2,7 @@ from pyecharts import Geo
 
 data = [
     ("海门", 9), ("鄂尔多斯", 12), ("招远", 12),
-    ("舟山", 12), ("烟台", 14), ("卢龙县", 15)
+    ("舟山", 12), ("山东烟台", 14), ("卢龙县", 15)
     ]
 geo = Geo("全国主要城市空气质量", "data from pm2.5", title_color="#fff",
           title_pos="center", width=1200,

@@ -45,7 +45,6 @@ def draw_sentiment_pic(csv_file):
 
 def count_city(csv_file):
     citys= []
-    m = '[\u4e00-\u9fa5]'    # 匹配城市字符串中的中文
     d = pd.read_csv(csv_file)
     for i in d['city'].dropna():       # 过滤掉空的城市
         i = translate(i)  # 只保留中文
@@ -83,7 +82,8 @@ def count_city(csv_file):
 def draw_citys_pic(csv_file):
     attr,  val = [], []
     info = count_city(csv_file)
-    # info = sorted(info.items(), key=lambda x: x[1], reverse=False)  # dict的排序方法
+    info = sorted(info.items(), key=lambda x: x[1], reverse=False)  # dict的排序方法
+    info = dict(info)
     print(info)
     geo = Geo(csv_file[:8]+":评论城市来源分析", "Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff",)
     flag = 0
@@ -102,7 +102,7 @@ def draw_citys_pic(csv_file):
 
     attr, val = geo.cast(info)
     geo.add("", attr, val, visual_range=[0, 300], visual_text_color="#fff", is_geo_effect_show=False,
-            is_piecewise=True, visual_split_number=6, symbol_size=15, is_visualmap=True, is_more_utils=True)
+            is_piecewise=True, visual_split_number=10, symbol_size=15, is_visualmap=True, is_more_utils=True)
     geo.render(csv_file[:8] + "_城市点图.html")
 
     geo = Geo(csv_file[:8]+":评论城市来源分析", "Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff",)
