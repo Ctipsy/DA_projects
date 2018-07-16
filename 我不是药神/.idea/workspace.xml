@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5242010-015b-4c19-8a8e-91de46475cf7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ceshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/我不是药神-爬虫与分析.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26752088_城市点图.html" beforeDir="false" afterPath="$PROJECT_DIR$/26752088_城市点图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26752088_城市热力图.html" beforeDir="false" afterPath="$PROJECT_DIR$/26752088_城市热力图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/情感分析_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/情感分析_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/简版城市字典.txt" beforeDir="false" afterPath="$PROJECT_DIR$/简版城市字典.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,10 +20,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/$main_2.coverage" NAME="main_2 Coverage Results" MODIFIED="1531618329119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$NLP.coverage" NAME="NLP Coverage Results" MODIFIED="1531537984639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$_2.coverage" NAME="情感分析_2 Coverage Results" MODIFIED="1531667644607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$_2.coverage" NAME="情感分析_2 Coverage Results" MODIFIED="1531749812728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$map_show.coverage" NAME="map_show Coverage Results" MODIFIED="1531571662177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1531666534868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$.coverage" NAME="情感分析 Coverage Results" MODIFIED="1531665761885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1531750929391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$main.coverage" NAME="main Coverage Results" MODIFIED="1531553747144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -25,8 +32,8 @@
       <file leaf-file-name="main_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-690">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="1190">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding>
                 <element signature="e#17#32#0" expanded="true" />
               </folding>
@@ -37,11 +44,60 @@
       <file leaf-file-name="情感分析_2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/情感分析_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="874">
+              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="简版城市字典.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/简版城市字典.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ceshi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceshi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="问题记录.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/问题记录.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="我不是药神-爬虫与分析.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/我不是药神-爬虫与分析.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="358">
+                <caret line="130" column="14" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="26752088.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/26752088.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="800" column="20" selection-start-line="800" selection-start-column="19" selection-end-line="800" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -67,6 +123,20 @@
       <find>draw_pic</find>
       <find>match</find>
       <find>哈尔</find>
+      <find>库尔勒巴音郭楞</find>
+      <find>巴音郭楞</find>
+      <find>齐齐哈尔</find>
+      <find>中卫</find>
+      <find>count_city</find>
+      <find>translate</find>
+      <find>Line</find>
+      <find>reverse</find>
+      <find>光</find>
+      <find>哈尔滨</find>
+      <find>广安</find>
+      <find>北京</find>
+      <find>上海</find>
+      <find>count_sentiment</find>
     </findStrings>
     <replaceStrings>
       <replace>count_sentiment</replace>
@@ -90,7 +160,10 @@
         <option value="$PROJECT_DIR$/main_2.py" />
         <option value="$PROJECT_DIR$/情感分析.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/简版城市字典.txt" />
         <option value="$PROJECT_DIR$/情感分析_2.py" />
+        <option value="$PROJECT_DIR$/ceshi.py" />
+        <option value="$PROJECT_DIR$/我不是药神-爬虫与分析.md" />
       </list>
     </option>
   </component>
@@ -104,12 +177,14 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="265" />
-    <option name="y" value="117" />
+    <option name="x" value="120" />
+    <option name="y" value="170" />
     <option name="width" value="1713" />
     <option name="height" value="944" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -134,6 +209,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CZK\工作\数据分析\我的练习项目\DA_prjects\我不是药神" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -146,28 +226,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.情感分析_2">
-    <configuration name="26683723.csv_情感分析曲线图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/我不是药神/26683723.csv_情感分析曲线图.html" />
-    <configuration name="26752088_城市点图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/我不是药神/26752088_城市点图.html" />
-    <configuration name="情感分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="我不是药神" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/情感分析.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.ceshi">
+    <configuration name="26366496_城市热力图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/我不是药神/26366496_城市热力图.html" />
+    <configuration name="26366496_城市点图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/我不是药神/26366496_城市点图.html" />
+    <configuration name="26366496_城市评论排行.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/我不是药神/26366496_城市评论排行.html" />
     <configuration name="情感分析_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="我不是药神" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +249,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="我不是药神" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,26 +262,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.情感分析" />
-      <item itemvalue="JavaScript Debug.26683723.csv_情感分析曲线图.html" />
       <item itemvalue="Python.情感分析_2" />
-      <item itemvalue="JavaScript Debug.26752088_城市点图.html" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.ceshi" />
+      <item itemvalue="JavaScript Debug.26366496_城市热力图.html" />
+      <item itemvalue="JavaScript Debug.26366496_城市点图.html" />
+      <item itemvalue="JavaScript Debug.26366496_城市评论排行.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ceshi" />
+        <item itemvalue="JavaScript Debug.26366496_城市评论排行.html" />
+        <item itemvalue="JavaScript Debug.26366496_城市热力图.html" />
         <item itemvalue="Python.情感分析_2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="JavaScript Debug.26752088_城市点图.html" />
-        <item itemvalue="Python.情感分析" />
-        <item itemvalue="JavaScript Debug.26683723.csv_情感分析曲线图.html" />
+        <item itemvalue="JavaScript Debug.26366496_城市点图.html" />
       </list>
     </recent_temporary>
   </component>
@@ -248,27 +310,33 @@
       <option name="project" value="LOCAL" />
       <updated>1531724462809</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create README.md">
+      <created>1531724707439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531724707439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005513" side_tool="true" visible="true" weight="0.22988506" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20672546" side_tool="true" visible="true" weight="0.22048067" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" visible="true" weight="0.22988506" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7629548" weight="0.34029227" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49944875" weight="0.32985386" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13065049" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49944875" weight="0.22675025" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49944875" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7932745" visible="true" weight="0.22048067" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.62017643" weight="0.3908046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1890849" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.42882353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49062312" weight="0.34367245" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5909592" weight="0.22884013" />
       <window_info anchor="bottom" id="Thumbnails" order="8" sideWeight="0.49944875" weight="0.32985386" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,6 +359,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/情感分析_2.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -298,7 +373,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -316,36 +391,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#17#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/情感分析_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#17#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/情感分析_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
@@ -542,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/问题记录.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -590,11 +628,6 @@
     <entry file="file://$PROJECT_DIR$/26683723.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/城市字典.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/情感分析.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -609,20 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/简版城市字典.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="57" column="2" selection-start-line="57" selection-end-line="57" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26752088.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="1029" column="20" selection-start-line="1029" selection-start-column="20" selection-end-line="1029" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map_show.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -631,20 +650,81 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maoyan.py" />
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/城市字典.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="340" column="8" lean-forward="true" selection-start-line="340" selection-end-line="340" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="1190">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
           <folding>
             <element signature="e#17#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/26752088.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="800" column="20" selection-start-line="800" selection-start-column="19" selection-end-line="800" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26366496.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2116">
+          <caret line="258" column="11" selection-start-line="258" selection-start-column="9" selection-end-line="258" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/简版城市字典.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/问题记录.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/我不是药神-爬虫与分析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="358">
+            <caret line="130" column="14" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/情感分析_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state relative-caret-position="874">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
