@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html><!--<![endif]-->
+<head>
+  <title>TOP100榜 - 猫眼电影 - 一网打尽好电影</title>
+  
+  <link rel="dns-prefetch" href="//p0.meituan.net"  />
+  <link rel="dns-prefetch" href="//p1.meituan.net"  />
+  <link rel="dns-prefetch" href="//ms0.meituan.net" />
+  <link rel="dns-prefetch" href="//ms1.meituan.net" />
+  <link rel="dns-prefetch" href="//analytics.meituan.com" />
+  <link rel="dns-prefetch" href="//report.meituan.com" />
+  <link rel="dns-prefetch" href="//frep.meituan.com" />
+
+  
+  <meta charset="utf-8">
+  <meta name="keywords" content="猫眼电影,电影排行榜,热映口碑榜,最受期待榜,国内票房榜,北美票房榜,猫眼TOP100">
+  <meta name="description" content="猫眼电影热门榜单,包括热映口碑榜,最受期待榜,国内票房榜,北美票房榜,猫眼TOP100,多维度为用户进行选片决策">
+  <meta http-equiv="cleartype" content="yes" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="renderer" content="webkit" />
+
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <script>
+  cid = "c_wx6zb55";
+  ci = 57;
+val = {"subnavId":4};    window.system = {};
+
+  window.openPlatform = '';
+
+  </script>
+  <link rel="stylesheet" href="//ms0.meituan.net/mywww/common.4b838ec3.css"/>
+<link rel="stylesheet" href="//ms0.meituan.net/mywww/board-index.92a06072.css"/>
+  <script src="//ms0.meituan.net/mywww/stat.791ffac0.js"></script>
+  <script>if(window.devicePixelRatio >= 2) { document.write('<link rel="stylesheet" href="//ms0.meituan.net/mywww/image-2x.8ba7074d.css"/>') }</script>
+  <style>
+    @font-face {
+      font-family: stonefont;
+      src: url('//vfile.meituan.net/colorstone/65718179db35eebc1d386e6f6b65bf923168.eot');
+      src: url('//vfile.meituan.net/colorstone/65718179db35eebc1d386e6f6b65bf923168.eot?#iefix') format('embedded-opentype'),
+           url('//vfile.meituan.net/colorstone/a220cfecae557c52abd70051c1211e352080.woff') format('woff');
+    }
+
+    .stonefont {
+      font-family: stonefont;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="header">
+  <div class="header-inner">
+        <a href="/" class="logo" data-act="icon-click"></a>
+        <div class="city-container" data-val="{currentcityid:57 }">
+            <div class="city-selected">
+                <div class="city-name">
+                  武汉
+                  <span class="caret"></span>
+                </div>
+            </div>
+            <div class="city-list" data-val="{ localcityid: 57 }">
+                <div class="city-list-header">定位城市：<a class="js-geo-city">武汉</a></div>
+                
+            </div>
+        </div>
+
+
+        <div class="nav">
+            <ul class="navbar">
+                <li><a href="/" data-act="home-click"  >首页</a></li>
+                <li><a href="/films" data-act="movies-click" >电影</a></li>
+                <li><a href="/cinemas" data-act="cinemas-click" >影院</a></li> 
+                
+                <li><a href="/board" data-act="board-click"  class="active" >榜单</a></li>
+                <li><a href="/news" data-act="hotNews-click" >热点</a></li>
+            </ul>
+        </div>
+
+        <div class="user-info">
+            <div class="user-avatar J-login">
+              <img src="http://p0.meituan.net/movie/7dd82a16316ab32c8359debdb04396ef2897.png">
+              <span class="caret"></span>
+              <ul class="user-menu">
+                <li><a href="javascript:void 0">登录</a></li>
+              </ul>
+            </div>
+        </div>
+
+        <form action="/query" target="_blank" class="search-form" data-actform="search-click">
+            <input name="kw" class="search" type="search" maxlength="32" placeholder="找影视剧、影人、影院" autocomplete="off">
+            <input class="submit" type="submit" value="">
+        </form>
+
+        <div class="app-download">
+          <a href="/app" target="_blank">
+            <span class="iphone-icon"></span>
+            <span class="apptext">APP下载</span>
+            <span class="caret"></span>
+            <div class="download-icon">
+                <p class="down-title">扫码下载APP</p>
+                <p class='down-content'>选座更优惠</p>
+            </div>
+          </a>
+        </div>
+  </div>
+</div>
+<div class="header-placeholder"></div>
+
+<div class="subnav">
+  <ul class="navbar">
+    <li>
+      <a data-act="subnav-click" data-val="{subnavClick:7}"
+          href="/board/7"
+      >热映口碑榜</a>
+    </li>
+    <li>
+      <a data-act="subnav-click" data-val="{subnavClick:6}"
+          href="/board/6"
+      >最受期待榜</a>
+    </li>
+    <li>
+      <a data-act="subnav-click" data-val="{subnavClick:1}"
+          href="/board/1"
+      >国内票房榜</a>
+    </li>
+    <li>
+      <a data-act="subnav-click" data-val="{subnavClick:2}"
+          href="/board/2"
+      >北美票房榜</a>
+    </li>
+    <li>
+      <a data-act="subnav-click" data-val="{subnavClick:4}"
+          data-state-val="{subnavId:4}"
+          class="active" href="javascript:void(0);"
+      >TOP100榜</a>
+    </li>
+  </ul>
+</div>
+
+
+    <div class="container" id="app" class="page-board/index" >
+
+<div class="content">
+    <div class="wrapper">
+        <div class="main">
+            <p class="update-time">2018-06-28<span class="has-fresh-text">已更新</span></p>
+            <p class="board-content">榜单规则：将猫眼电影库中的经典影片，按照评分和评分人数从高到低综合排序取前100名，每天上午10点更新。相关数据来源于“猫眼电影库”。</p>
+            <dl class="board-wrapper">
+                <dd>
+                        <i class="board-index board-index-1">1</i>
+    <a href="/films/1203" title="霸王别姬" class="image-link" data-act="boarditem-click" data-val="{movieId:1203}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p1.meituan.net/movie/20803f59291c47e1e116c11963ce019e68711.jpg@160w_220h_1e_1c" alt="霸王别姬" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1203" title="霸王别姬" data-act="boarditem-click" data-val="{movieId:1203}">霸王别姬</a></p>
+        <p class="star">
+                主演：张国荣,张丰毅,巩俐
+        </p>
+<p class="releasetime">上映时间：1993-01-01(中国香港)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">6</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-2">2</i>
+    <a href="/films/1297" title="肖申克的救赎" class="image-link" data-act="boarditem-click" data-val="{movieId:1297}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p0.meituan.net/movie/283292171619cdfd5b240c8fd093f1eb255670.jpg@160w_220h_1e_1c" alt="肖申克的救赎" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1297" title="肖申克的救赎" data-act="boarditem-click" data-val="{movieId:1297}">肖申克的救赎</a></p>
+        <p class="star">
+                主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿
+        </p>
+<p class="releasetime">上映时间：1994-10-14(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-3">3</i>
+    <a href="/films/2641" title="罗马假日" class="image-link" data-act="boarditem-click" data-val="{movieId:2641}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p0.meituan.net/movie/54617769d96807e4d81804284ffe2a27239007.jpg@160w_220h_1e_1c" alt="罗马假日" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/2641" title="罗马假日" data-act="boarditem-click" data-val="{movieId:2641}">罗马假日</a></p>
+        <p class="star">
+                主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特
+        </p>
+<p class="releasetime">上映时间：1953-09-02(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">1</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-4">4</i>
+    <a href="/films/4055" title="这个杀手不太冷" class="image-link" data-act="boarditem-click" data-val="{movieId:4055}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p0.meituan.net/movie/e55ec5d18ccc83ba7db68caae54f165f95924.jpg@160w_220h_1e_1c" alt="这个杀手不太冷" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/4055" title="这个杀手不太冷" data-act="boarditem-click" data-val="{movieId:4055}">这个杀手不太冷</a></p>
+        <p class="star">
+                主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼
+        </p>
+<p class="releasetime">上映时间：1994-09-14(法国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-5">5</i>
+    <a href="/films/1247" title="教父" class="image-link" data-act="boarditem-click" data-val="{movieId:1247}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p1.meituan.net/movie/f5a924f362f050881f2b8f82e852747c118515.jpg@160w_220h_1e_1c" alt="教父" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1247" title="教父" data-act="boarditem-click" data-val="{movieId:1247}">教父</a></p>
+        <p class="star">
+                主演：马龙·白兰度,阿尔·帕西诺,詹姆斯·肯恩
+        </p>
+<p class="releasetime">上映时间：1972-03-24(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">3</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-6">6</i>
+    <a href="/films/267" title="泰坦尼克号" class="image-link" data-act="boarditem-click" data-val="{movieId:267}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p1.meituan.net/movie/0699ac97c82cf01638aa5023562d6134351277.jpg@160w_220h_1e_1c" alt="泰坦尼克号" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/267" title="泰坦尼克号" data-act="boarditem-click" data-val="{movieId:267}">泰坦尼克号</a></p>
+        <p class="star">
+                主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩
+        </p>
+<p class="releasetime">上映时间：1998-04-03</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">5</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-7">7</i>
+    <a href="/films/123" title="龙猫" class="image-link" data-act="boarditem-click" data-val="{movieId:123}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p0.meituan.net/movie/b03e9c52c585635d2cb6a3f7c08a8a50112441.jpg@160w_220h_1e_1c" alt="龙猫" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/123" title="龙猫" data-act="boarditem-click" data-val="{movieId:123}">龙猫</a></p>
+        <p class="star">
+                主演：日高法子,坂本千夏,糸井重里
+        </p>
+<p class="releasetime">上映时间：1988-04-16(日本)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">2</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-8">8</i>
+    <a href="/films/837" title="唐伯虎点秋香" class="image-link" data-act="boarditem-click" data-val="{movieId:837}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p0.meituan.net/movie/da64660f82b98cdc1b8a3804e69609e041108.jpg@160w_220h_1e_1c" alt="唐伯虎点秋香" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/837" title="唐伯虎点秋香" data-act="boarditem-click" data-val="{movieId:837}">唐伯虎点秋香</a></p>
+        <p class="star">
+                主演：周星驰,巩俐,郑佩佩
+        </p>
+<p class="releasetime">上映时间：1993-07-01(中国香港)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">2</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-9">9</i>
+    <a href="/films/2760" title="魂断蓝桥" class="image-link" data-act="boarditem-click" data-val="{movieId:2760}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p0.meituan.net/movie/46c29a8b8d8424bdda7715e6fd779c66235684.jpg@160w_220h_1e_1c" alt="魂断蓝桥" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/2760" title="魂断蓝桥" data-act="boarditem-click" data-val="{movieId:2760}">魂断蓝桥</a></p>
+        <p class="star">
+                主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森
+        </p>
+<p class="releasetime">上映时间：1940-05-17(美国)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">2</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+                <dd>
+                        <i class="board-index board-index-10">10</i>
+    <a href="/films/1212" title="千与千寻" class="image-link" data-act="boarditem-click" data-val="{movieId:1212}">
+      <img src="//ms0.meituan.net/mywww/image/loading_2.e3d934bf.png" alt="" class="poster-default" />
+      <img data-src="http://p0.meituan.net/movie/b076ce63e9860ecf1ee9839badee5228329384.jpg@160w_220h_1e_1c" alt="千与千寻" class="board-img" />
+    </a>
+    <div class="board-item-main">
+      <div class="board-item-content">
+              <div class="movie-item-info">
+        <p class="name"><a href="/films/1212" title="千与千寻" data-act="boarditem-click" data-val="{movieId:1212}">千与千寻</a></p>
+        <p class="star">
+                主演：柊瑠美,入野自由,夏木真理
+        </p>
+<p class="releasetime">上映时间：2001-07-20(日本)</p>    </div>
+    <div class="movie-item-number score-num">
+<p class="score"><i class="integer">9.</i><i class="fraction">3</i></p>        
+    </div>
+
+      </div>
+    </div>
+
+                </dd>
+            </dl>
+
+        </div>
+            <div class="pager-main">
+                
+  
+  <ul class="list-pager">
+
+
+
+  
+      <li class="active">
+    <a class="page_1"
+      href="javascript:void(0);" style="cursor: default"
+  >1</a>
+
+</li>
+  <li >
+    <a class="page_2"
+      href="?offset=10"
+  >2</a>
+
+</li>
+  <li >
+    <a class="page_3"
+      href="?offset=20"
+  >3</a>
+
+</li>
+  <li >
+    <a class="page_4"
+      href="?offset=30"
+  >4</a>
+
+</li>
+  <li >
+    <a class="page_5"
+      href="?offset=40"
+  >5</a>
+
+</li>
+
+    <li class="sep">...</li>
+      <li >
+    <a class="page_10"
+      href="?offset=90"
+  >10</a>
+
+</li>
+
+  
+
+<li>  <a class="page_2"
+      href="?offset=10"
+  >下一页</a>
+</li>
+</ul>
+
+
+            </div>
+    </div>
+</div>
+
+    </div>
+<div class="footer">
+    <p class="friendly-links">
+      商务合作邮箱：v@maoyan.com
+      客服电话：10105335
+      违法和不良信息举报电话：4006018900
+      <br/>
+      投诉举报邮箱：tousujubao@meituan.com
+      舞弊线索举报邮箱：wubijubao@maoyan.com
+    </p>
+    <p class="friendly-links">
+        友情链接 :
+        <a href="http://www.meituan.com" data-query="utm_source=wwwmaoyan" target="_blank">美团网</a>
+        <span></span>
+        <a href="http://i.meituan.com/client" data-query="utm_source=wwwmaoyan" target="_blank">美团下载</a>
+    </p>
+    <p>
+        &copy;2016
+        猫眼电影 maoyan.com
+        <a href="https://tsm.miit.gov.cn/pages/EnterpriseSearchList_Portal.aspx?type=0&keyword=京ICP证160733号&pageNo=1" target="_blank">京ICP证160733号</a>
+        <a href="http://www.miibeian.gov.cn" target="_blank">京ICP备16022489号-1</a>
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102003232" target="_blank">京公网安备 11010102003232号</a>
+        <a href="/about/licence" target="_blank">网络文化经营许可证</a>
+        <a href="http://www.meituan.com/about/rules" target="_blank">电子公告服务规则</a>
+    </p>
+    <p>北京猫眼文化传媒有限公司</p>
+</div>
+
+    <!--[if IE 8]><script src="//ms0.meituan.net/mywww/es5-shim.bbad933f.js"></script><![endif]-->
+    <!--[if IE 8]><script src="//ms0.meituan.net/mywww/es5-sham.d6ea26f4.js"></script><![endif]-->
+    <script src="//ms0.meituan.net/mywww/common.dc33ab40.js"></script>
+<script src="//ms0.meituan.net/mywww/board-index.4aa00764.js"></script>
+</body>
+</html>
