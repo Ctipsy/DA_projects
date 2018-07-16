@@ -23,8 +23,8 @@
       <file leaf-file-name="main_2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="115">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="e#17#32#0" expanded="true" />
               </folding>
@@ -35,7 +35,7 @@
       <file leaf-file-name="情感分析_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/情感分析_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
+            <state relative-caret-position="1219">
               <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -71,6 +71,9 @@
       <replace>draw_sentiment_pic</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -104,11 +107,13 @@
     <option name="width" value="1713" />
     <option name="height" value="944" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,17 +235,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="265" y="117" width="1713" height="944" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2370452" side_tool="true" visible="true" weight="0.23945409" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2370452" side_tool="true" visible="true" weight="0.2016719" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7629548" weight="0.34029227" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49944875" weight="0.32985386" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17725348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13065049" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.42882353" />
@@ -291,6 +295,26 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/情感分析_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -580,7 +604,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/情感分析_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
+        <state relative-caret-position="1219">
           <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -598,8 +622,8 @@
     <entry file="file://$PROJECT_DIR$/maoyan.py" />
     <entry file="file://$PROJECT_DIR$/main_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="115">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="e#17#32#0" expanded="true" />
           </folding>
