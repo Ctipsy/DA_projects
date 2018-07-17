@@ -56,12 +56,12 @@ def count_city(csv_file):
                 if i in fth:
                     citys.append(i)
                 else:
-                    pass
+                    continue
         if len(i) > 4:
             if i in fth:   # 如果名称个数>2，先判断是否在字典里
                 citys.append(i)
             if i[-5:] in fth:
-                citys.append(i[-4:])
+                citys.append(i[-5:])
                 continue
             if i[-4:] in fth:
                 citys.append(i[-4:])
@@ -69,7 +69,7 @@ def count_city(csv_file):
             if i[-3:] in fth:
                 citys.append(i[-3:])
             else:
-                pass
+                continue
     result = {}
     while '' in citys:
         citys.remove('')  # 去掉字符串中的空值
@@ -80,27 +80,36 @@ def count_city(csv_file):
 
 
 def draw_citys_pic(csv_file):
-    attr,  val = [], []
     info = count_city(csv_file)
-    info = sorted(info.items(), key=lambda x: x[1], reverse=False)  # dict的排序方法
-    info = dict(info)
-    print(info)
-    geo = Geo(csv_file[:8]+":评论城市来源分析", "Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff",)
+    geo = Geo(csv_file[:8]+":评论城市来源分析", "Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff")
     flag = 0
     while True:   # 二次筛选，和pyecharts支持的城市库进行匹配，如果报错则删除该城市对应的统计
         try:
             attr, val = geo.cast(info)
             geo.add("", attr, val, visual_range=[0, 300], visual_text_color="#fff", is_geo_effect_show=False,
                     is_piecewise=True, visual_split_number=6, symbol_size=15, is_visualmap=True)
-            flag = 1
+            flag =1
         except ValueError as e:
             e = str(e)
             e = e.split("No coordinate is specified for ")[1]  # 获取不支持的城市名称
             info.pop(e)
         if flag == 1:
             break
+    info = sorted(info.items(), key=lambda x: x[1], reverse=False)  # list排序
+    # print(info)
+    info = dict(info)   #list转dict
+    # print(info)
+    attr, val = [], []
+    for key in info:
+        attr.append(key)
+        val.append(info[key])
+    print(attr)
+    print(val)
 
-    attr, val = geo.cast(info)
+
+
+    geo = Geo(csv_file[:8] + ":评论城市来源分析", "Ctipsy原创", title_pos="center", width=1200, height=600,
+              background_color='#404a59', title_color="#fff")
     geo.add("", attr, val, visual_range=[0, 300], visual_text_color="#fff", is_geo_effect_show=False,
             is_piecewise=True, visual_split_number=10, symbol_size=15, is_visualmap=True, is_more_utils=True)
     geo.render(csv_file[:8] + "_城市点图.html")
