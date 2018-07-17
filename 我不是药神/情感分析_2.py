@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from pyecharts import Line, Geo, Bar
+from pyecharts import Line, Geo, Bar, Pie,Page
 from snownlp import SnowNLP
 
 fth = open('pyecharts_citys_supported.txt', 'r', encoding='utf-8').read() # pyecharts支持城市列表
@@ -80,8 +80,9 @@ def count_city(csv_file):
 
 
 def draw_citys_pic(csv_file):
+    page = Page(csv_file[:8]+":评论城市分析")
     info = count_city(csv_file)
-    geo = Geo(csv_file[:8]+":评论城市来源分析", "Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff")
+    geo = Geo("","Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff")
     flag = 0
     while True:   # 二次筛选，和pyecharts支持的城市库进行匹配，如果报错则删除该城市对应的统计
         try:
@@ -103,26 +104,29 @@ def draw_citys_pic(csv_file):
     for key in info:
         attr.append(key)
         val.append(info[key])
-    print(attr)
-    print(val)
 
 
-
-    geo = Geo(csv_file[:8] + ":评论城市来源分析", "Ctipsy原创", title_pos="center", width=1200, height=600,
+    geo1 = Geo("", "评论城市分布", title_pos="center", width=1200, height=600,
               background_color='#404a59', title_color="#fff")
-    geo.add("", attr, val, visual_range=[0, 300], visual_text_color="#fff", is_geo_effect_show=False,
+    geo1.add("", attr, val, visual_range=[0, 300], visual_text_color="#fff", is_geo_effect_show=False,
             is_piecewise=True, visual_split_number=10, symbol_size=15, is_visualmap=True, is_more_utils=True)
-    geo.render(csv_file[:8] + "_城市点图.html")
+    #geo1.render(csv_file[:8] + "_城市dotmap.html")
+    page.add_chart(geo1)
+    geo2 = Geo("", "评论来源热力图",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff",)
+    geo2.add("", attr, val, type="heatmap", is_visualmap=True, visual_range=[0, 50],visual_text_color='#fff', is_more_utils=True)
+    #geo2.render(csv_file[:8]+"_城市heatmap.html")  # 取CSV文件名的前8位数
+    page.add_chart(geo2)
+    bar = Bar("", "评论来源排行", title_pos="center", width=1200, height=600 )
+    bar.add("", attr, val, is_visualmap=True, visual_range=[0, 100], visual_text_color='#fff',mark_point=["average"],mark_line=["average"],
+            is_more_utils=True, is_label_show=True, is_datazoom_show=True, xaxis_rotate=45)
+    #bar.render(csv_file[:8]+"_城市评论bar.html")  # 取CSV文件名的前8位数
+    page.add_chart(bar)
+    pie = Pie("", "评论来源饼图", title_pos="right", width=1200, height=600)
+    pie.add("", attr, val, radius=[20, 50], label_text_color=None, is_label_show=True, legend_orient='vertical', is_more_utils=True, legend_pos='left')
+    #pie.render(csv_file[:8] + "_城市评论Pie.html")  # 取CSV文件名的前8位数
+    page.add_chart(pie)
+    page.render(csv_file[:8] + "_城市评论分析汇总.html")
 
-    geo = Geo(csv_file[:8]+":评论城市来源分析", "Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff",)
-    geo.add("", attr, val, type="heatmap", is_visualmap=True, visual_range=[0, 50],visual_text_color='#fff', is_more_utils=True)
-    geo.render(csv_file[:8]+"_城市热力图.html")  # 取CSV文件名的前8位数
-
-    bar = Bar(csv_file[:8] + ":评论城市来源分析", "Ctipsy原创", title_pos="center", width=1200, height=600,
-              background_color='#404a59', title_color="#fff", )
-    bar.add("", attr, val, is_visualmap=True, visual_range=[0, 300], visual_text_color='#fff',
-            is_more_utils=True)
-    bar.render(csv_file[:8]+"_城市评论排行.html")  # 取CSV文件名的前8位数
 
 def main(csv_file):
     # draw_sentiment_pic(csv_file)
