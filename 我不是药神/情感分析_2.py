@@ -42,7 +42,6 @@ def draw_sentiment_pic(csv_file):
     line.add("", attr, val, is_smooth=True, is_more_utils=True)
     line.render(csv_file+"_情感分析曲线图.html")
 
-
 def count_city(csv_file):
     citys= []
     d = pd.read_csv(csv_file)
@@ -83,18 +82,16 @@ def draw_citys_pic(csv_file):
     page = Page(csv_file[:8]+":评论城市分析")
     info = count_city(csv_file)
     geo = Geo("","Ctipsy原创",title_pos="center", width=1200,height=600, background_color='#404a59', title_color="#fff")
-    flag = 0
     while True:   # 二次筛选，和pyecharts支持的城市库进行匹配，如果报错则删除该城市对应的统计
         try:
             attr, val = geo.cast(info)
             geo.add("", attr, val, visual_range=[0, 300], visual_text_color="#fff", is_geo_effect_show=False,
                     is_piecewise=True, visual_split_number=6, symbol_size=15, is_visualmap=True)
-            flag =1
         except ValueError as e:
             e = str(e)
             e = e.split("No coordinate is specified for ")[1]  # 获取不支持的城市名称
             info.pop(e)
-        if flag == 1:
+        else:
             break
     info = sorted(info.items(), key=lambda x: x[1], reverse=False)  # list排序
     # print(info)
