@@ -144,7 +144,7 @@ def open_url(re_get,user_header):
 
 
 def writer_to_text(text):  # 储存到text
-    with open('豆瓣音乐.text', 'a', encoding='utf-8')as f:
+    with open('豆瓣音乐.txt', 'a', encoding='utf-8')as f:
          f.write(json.dumps(text, ensure_ascii=False) + '\n')
          f.close()
 
