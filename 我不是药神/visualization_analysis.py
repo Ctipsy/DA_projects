@@ -93,39 +93,30 @@ def count_city(csv_file):
     path = os.path.abspath(os.curdir)
     csv_file = path+ "\\" + csv_file +".csv"
     csv_file = csv_file.replace('\\', '\\\\')
-
-    citys= []
+    
     d = pd.read_csv(csv_file, engine='python', encoding='utf-8')
-    for i in d['city'].dropna():       # 过滤掉空的城市
-        i = translate(i)  # 只保留中文
-        if len(i)>1 and len(i)<5:  # 如果名称个数2~4，先判断是否在字典里
-            if i in fth:
-                citys.append(i)
-            else:
-                i = i[-2:]  # 取城市名称后两个，去掉省份
-                if i in fth:
-                    citys.append(i)
-                else:
-                    continue
-        if len(i) > 4:
-            if i in fth:   # 如果名称个数>2，先判断是否在字典里
-                citys.append(i)
-            if i[-5:] in fth:
-                citys.append(i[-5:])
-                continue
-            if i[-4:] in fth:
-                citys.append(i[-4:])
-                continue
-            if i[-3:] in fth:
-                citys.append(i[-3:])
-            else:
-                continue
+    city = [translate(n) for n in d['city'].dropna()] # 清洗城市，将中文城市提取出来并删除标点符号等 
+    
+    #这是从网上找的省份的名称，将他转换成列表的形式
+    province = '湖南,湖北,广东,广西、河南、河北、山东、山西,江苏、浙江、江西、黑龙江、新疆,云南、贵州、福建、吉林、安徽,四川、西藏、宁夏、辽宁、青海、甘肃、陕西,内蒙古、台湾'海南'
+    province = province.replace('、',',').split(',')
+    rep_province = "|".join(province) #re.sub中城市替换的条件
+    
+    All_city = jieba.cut("".join(city)) # 分词，将省份和市级地名分开，当然有一些如吉林长春之类没有很好的分开，因此我们需要用re.sub（）来将之中的省份去除掉
+    final_city= []
+    for a_city in All_city:
+        a_city_sub = re.sub(rep_province,"",a_city) #对每一个单元使用sub方法，如果有省份的名称，就将他替换为“”（空）
+        if a_city_sub == "": #判断，如果为空，跳过
+            continue
+        elif a_city_sub in fth: #因为所有的省份都被排除掉了，便可以直接判断城市在不在列表之中，如果在，final_city便增加
+            final_city.append(a_city_sub)
+        else: #不在fth中的城市，跳过
+            continue
+            
     result = {}
-    while '' in citys:
-        citys.remove('')  # 去掉字符串中的空值
-    print("城市总数量为：",len(citys))
-    for i in set(citys):
-        result[i] = citys.count(i)
+    print("城市总数量为：",len(final_city))
+    for i in set(final_city):
+        result[i] = final_city.count(i)
     return result
 
 
