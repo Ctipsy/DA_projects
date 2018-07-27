@@ -14,7 +14,7 @@ def get_city(url, i):
     time.sleep(round(random.uniform(2, 3), 2))
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'}
-    cookies = {'cookie': 'bid=GOOb4vXwNcc; douban-fav-remind=1; ps=y; ue="maplekonghou@163.com"; push_noty_num=0; push_doumail_num=0; ap=1; ll="108288"; dbcl2="181095881:BSb6IVAXxCI"; ck=Fd1S; ct=y'}
+    cookies = {'cookie': '此处请放置自己的cookies，不更改的话，代码不能正常运行'}  # 2018.7.25修改，
     res = requests.get(url, cookies=cookies, headers=headers)
     if (res.status_code == 200):
         print("\n成功获取第{}个用户城市信息！".format(i))
