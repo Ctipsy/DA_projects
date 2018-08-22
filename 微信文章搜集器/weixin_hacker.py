@@ -65,7 +65,7 @@ def judge_info(name):
     item1 = re.findall(pattern1, html)  # list类型
     
     pattern2 = re.compile('<a href="/account/.*?">(.\d+)</a>(\s*)</span>(\s*?)<a href="/account/.*" style="float: right">下一页</a>')
-    item2 = re.findall(pattern2, html)  # list类型      
+    item2 = re.findall(pattern2, html)  # list类型   
 
     
     if item1:
@@ -93,9 +93,8 @@ def main(offset, i):
     
     
 if __name__ == "__main__":
-    print("说明：\n0、若程序很快退出，可能是输入的信息有错\n"
-                     "1、需要首先知道公众号的微信号名称\n"
-                     "2、然后在http://chuansong.me/上搜索是否收录了该公众号，并查看目前更新了多少页")
+    print("\n说明：若程序很快退出，可能是输入的信息有错\n"
+                     "\nAuthor:Ctipsy\n")
     name = input("请输入公众号名称：")
     judge_info(name);
     pages = input("\n请输入需要抓取的文章页数(<N):")
